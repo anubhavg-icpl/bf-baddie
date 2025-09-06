@@ -73,7 +73,7 @@ ${chalk.green(',')} - Reads one byte from input
 ${chalk.green('.')} - Outputs ASCII character of current cell value
 
 Example: To output 'A' (ASCII 65):
-${'A' generation process:
+'A' generation process:
 Initialize cell to 65, then output
 
 Code: ${chalk.yellow('++++++++[>++++++++<-]>+.')}
