@@ -2,11 +2,36 @@
 
 An interactive command-line tool for learning and mastering the Brainfuck programming language.
 
-## Installation
+## 🚀 Quick Start
 
 ```bash
+# Automated setup
+./setup.sh
+
+# Or manual installation
 npm install
 npm link  # Makes 'bf' command available globally
+```
+
+## 📁 Project Structure
+
+```
+brainfuck-cli/
+├── bin/            # Executable scripts
+│   └── bf          # Main CLI executable
+├── src/            # Source code
+│   ├── cli.js      # CLI interface
+│   ├── interpreter.js  # Brainfuck interpreter
+│   ├── tutorial.js     # Interactive tutorial
+│   ├── examples.js     # Example programs
+│   ├── exercises.js    # Practice exercises
+│   ├── visualizer.js   # Memory visualization
+│   └── config.js       # Configuration
+├── data/           # Data files
+│   ├── examples/   # Example .bf files
+│   └── exercises/  # Exercise data
+├── tests/          # Test files
+└── package.json    # NPM configuration
 ```
 
 ## Usage
