@@ -2,14 +2,17 @@
   "name": "brainfuck-cli",
   "version": "1.0.0",
   "description": "Interactive Brainfuck learning CLI tool",
-  "main": "index.js",
+  "main": "src/cli.js",
   "type": "module",
   "bin": {
-    "bf": "./cli.js"
+    "bf": "./bin/bf"
   },
   "scripts": {
-    "start": "node cli.js",
-    "test": "node test.js"
+    "start": "node src/cli.js",
+    "test": "node tests/test.js",
+    "test:full": "node tests/full-test.js",
+    "install:global": "npm link",
+    "uninstall:global": "npm unlink -g brainfuck-cli"
   },
   "keywords": [
     "brainfuck",

@@ -1,4 +1,4 @@
-import { BrainfuckInterpreter } from './interpreter.js';
+import { BrainfuckInterpreter } from '../src/interpreter.js';
 import chalk from 'chalk';
 
 console.log(chalk.cyan.bold('\n🧠 Brainfuck CLI Test Suite\n'));
